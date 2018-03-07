@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Agena
+Comment=Agena P2P Cryptocurrency
+Exec=agena-qt %u
+Terminal=false
+Type=Application
+Icon=agena128
+MimeType=x-scheme-handler/agena;
+Categories=Office;Finance;
+Name[en_US]=agena-qt.desktop

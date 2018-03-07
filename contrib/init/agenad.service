@@ -1,0 +1,22 @@
+[Unit]
+Description=Agena's distributed currency daemon
+After=network.target
+
+[Service]
+User=agenacore
+Group=agenacore
+
+Type=forking
+PIDFile=/var/lib/agenad/agenad.pid
+ExecStart=/usr/bin/agenad -daemon -pid=/var/lib/agenad/agenad.pid \
+-conf=/etc/agenacore/agena.conf -datadir=/var/lib/agenad -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

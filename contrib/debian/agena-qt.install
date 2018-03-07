@@ -1,0 +1,6 @@
+usr/local/bin/agena-qt usr/bin
+share/pixmaps/agena32.xpm usr/share/pixmaps
+share/pixmaps/agena16.xpm usr/share/pixmaps
+share/pixmaps/agena128.png usr/share/pixmaps
+debian/agena-qt.desktop usr/share/applications
+debian/agena-qt.protocol usr/share/kde4/services/

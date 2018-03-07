@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/agena_bg.qm</file>
+        <file alias="de">locale/agena_de.qm</file>
+        <file alias="en">locale/agena_en.qm</file>
+        <file alias="es">locale/agena_es.qm</file>
+        <file alias="fi">locale/agena_fi.qm</file>
+        <file alias="fr">locale/agena_fr.qm</file>
+        <file alias="it">locale/agena_it.qm</file>
+        <file alias="ja">locale/agena_ja.qm</file>
+        <file alias="pl">locale/agena_pl.qm</file>
+        <file alias="pt">locale/agena_pt.qm</file>
+        <file alias="ru">locale/agena_ru.qm</file>
+        <file alias="sk">locale/agena_sk.qm</file>
+        <file alias="sv">locale/agena_sv.qm</file>
+        <file alias="vi">locale/agena_vi.qm</file>
+        <file alias="zh_CN">locale/agena_zh_CN.qm</file>
+        <file alias="zh_TW">locale/agena_zh_TW.qm</file>
+    </qresource>
+</RCC>

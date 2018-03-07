@@ -1,0 +1,11 @@
+[Protocol]
+exec=agena-qt '%u'
+protocol=agena
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
