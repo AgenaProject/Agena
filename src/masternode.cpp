@@ -455,6 +455,7 @@ bool CMasternodeBroadcast::Create(std::string strService, std::string strKeyMast
     LogPrintf("CMasternodeBroadcast::Create success-- %s\n", txin.ToString());
 
         int MASTERNODE_PRICE = 1000 + floor(chainActive.Height() / 10000) * 500 ;
+	if (MASTERNODE_PRICE > 999) MASTERNODE_PRICE = 1000 ;
         int MASTERNODE_PRICE1 = 1000 ;
         int MASTERNODE_PRICE2 = 1250 ;
         int MASTERNODE_PRICE3 = 1500 ;
