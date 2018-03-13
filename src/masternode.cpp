@@ -686,7 +686,7 @@ bool CMasternodeBroadcast::CheckOutpoint(int& nDos)
             return false;
         }
 	int MASTERNODE_PRICE = 1000 + floor(chainActive.Height() / 10000) * 500 ;
-	if (MASTERNODE_PRICE > 3000) MASTERNODE_PRICE = 3000 ;
+	if (MASTERNODE_PRICE > 999) MASTERNODE_PRICE = 1000 ;
         int MASTERNODE_PRICE1 = 1000 ;
         int MASTERNODE_PRICE2 = 1500 ;
         int MASTERNODE_PRICE3 = 2000 ;
