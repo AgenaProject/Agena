@@ -491,7 +491,7 @@ bool CMasternodeBroadcast::Create(std::string strService, std::string strKeyMast
                 return false;
         }
 	
-	if (coins.nHeight > 5000 && cValue < MASTERNODE_PRICE2){
+	if (coins.nHeight > 8900 && cValue < MASTERNODE_PRICE2){
 	        strErrorRet = strprintf("Your Masternode output has %d AGENA, and it was made at Block Height %d. You need %d AGENA to start masternode now.", cValue, coins.nHeight, MASTERNODE_PRICE);
 		return false;
 	}
