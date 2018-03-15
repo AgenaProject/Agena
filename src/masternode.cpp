@@ -469,29 +469,29 @@ bool CMasternodeBroadcast::Create(std::string strService, std::string strKeyMast
 	LogPrintf("CMasternodeBroadcast::coins nValue of index :  %d\n", coins.vout[nOutputIndex].nValue/COIN);
 	int cValue =  coins.vout[nOutputIndex].nValue/COIN;
 
-        if (coins.nHeight > 216000 && cValue < MASTERNODE_PRICE7){
+        if (coins.nHeight > 206000 && cValue < MASTERNODE_PRICE7){
                 strErrorRet = strprintf("Your Masternode output has %d AGENA, and it was made at Block Height %d. You need %d AGENA to start masternode now.", cValue, coins.nHeight, MASTERNODE_PRICE); 
                 return false;
         }
-        if (coins.nHeight > 215000 && cValue < MASTERNODE_PRICE6){
+        if (coins.nHeight > 205000 && cValue < MASTERNODE_PRICE6){
                 strErrorRet = strprintf("Your Masternode output has %d AGENA, and it was made at Block Height %d. You need %d AGENA to start masternode now.", cValue, coins.nHeight, MASTERNODE_PRICE);
                 return false;
         }
 
-        if (coins.nHeight > 214000 && cValue < MASTERNODE_PRICE5){
+        if (coins.nHeight > 204000 && cValue < MASTERNODE_PRICE5){
                 strErrorRet = strprintf("Your Masternode output has %d AGENA, and it was made at Block Height %d. You need %d AGENA to start masternode now.", cValue, coins.nHeight, MASTERNODE_PRICE);
                 return false;
         }
-        if (coins.nHeight > 213000 && cValue < MASTERNODE_PRICE4){
+        if (coins.nHeight > 203000 && cValue < MASTERNODE_PRICE4){
                 strErrorRet = strprintf("Your Masternode output has %d AGENA, and it was made at Block Height %d. You need %d AGENA to start masternode now.", cValue, coins.nHeight, MASTERNODE_PRICE);
                 return false;
         }
-        if (coins.nHeight > 212000 && cValue < MASTERNODE_PRICE3){
+        if (coins.nHeight > 202000 && cValue < MASTERNODE_PRICE3){
                 strErrorRet = strprintf("Your Masternode output has %d AGENA, and it was made at Block Height %d. You need %d AGENA to start masternode now.", cValue, coins.nHeight, MASTERNODE_PRICE);
                 return false;
         }
 	
-	if (coins.nHeight > 210000 && cValue < MASTERNODE_PRICE2){
+	if (coins.nHeight > 201000 && cValue < MASTERNODE_PRICE2){
 	        strErrorRet = strprintf("Your Masternode output has %d AGENA, and it was made at Block Height %d. You need %d AGENA to start masternode now.", cValue, coins.nHeight, MASTERNODE_PRICE);
 		return false;
 	}
